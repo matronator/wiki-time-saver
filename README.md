@@ -1,3 +1,13 @@
+# Wiki Time Saver Stylesheet
+
+CSS User Stylesheet for browsers (tested only on Safari) designed to increase productivity while visiting Wikipedia by making it harder to go down the rabbit hole. It accomplishes this by making links appear as regular text and disabling `pointer-events` to make it impossible to click on them.
+
+## How to use
+
+Download `wiki-time-saver.css` or the minified version of the stylesheet `wiki-time-saver.min.css` and import it to your browser as a User Style Sheet. In Safari you can do that in **Safari > Preferences... > Advanced > Style Sheet** and selecting the downloaded CSS file.
+
+## License
+
 MIT License
 
 Copyright (c) 2021 Matronator - https://matronator.com
