@@ -1,0 +1,42 @@
+/**
+ * Copyright (c) 2021 Matronator - https://matronator.com/
+ *
+ * This software is released under the MIT License.
+ * https://opensource.org/licenses/MIT
+ */
+
+/* Uncomment this if your eyesight is as bad as mine 😅 */
+/* html {
+    font-size: 110% !important;
+} */
+
+/* Remove styling from links in the article body and
+ * disable pointer events to make them unclickable */
+#mw-content-text p > a,
+#mw-content-text li > a,
+#mw-content-text p > a:hover,
+#mw-content-text li > a:hover
+{
+    text-decoration: none !important;
+    color: #202122 !important;
+    cursor: text !important;
+    pointer-events: none !important;
+}
+
+/* Hide ref links */
+#mw-content-text p > a + sup,
+#mw-content-text a ~ sup,
+#mw-content-text li > a + sup
+{
+    display: none !important;
+    pointer-events: none !important;
+}
+
+/* Hide links in the "See Also" section */
+/* Not always working as intended, as the "See Also"
+ * section is not always last.
+ * Commenting out for now... */
+/* #mw-content-text h2:last-of-type + ul
+{
+    display: none !important;
+} */
