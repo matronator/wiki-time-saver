@@ -4,7 +4,7 @@ CSS User Stylesheet for browsers (tested only on Safari) designed to increase pr
 
 ## How to use
 
-Download `wiki-time-saver.css` or the minified version of the stylesheet `wiki-time-saver.min.css` and import it to your browser as a User Style Sheet. In Safari you can do that in **Safari > Preferences... > Advanced > Style Sheet** and selecting the downloaded CSS file.
+Download [wiki-time-saver.css](https://github.com/matronator/wiki-time-saver/blob/main/wiki-time-saver.css) (or the minified version of the stylesheet [wiki-time-saver.min.css](https://github.com/matronator/wiki-time-saver/blob/main/wiki-time-saver.min.css)) and import it to your browser as a User Style Sheet. In Safari you can do that in **Safari > Preferences... > Advanced > Style Sheet** and selecting the downloaded CSS file.
 
 ## License
 
